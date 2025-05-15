@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/elisha/ros2_ws/install/cube_detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/elisha/ros2_ws/install/cube_detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "terminal.integrated.profiles.linux": {
+        "bash (ROS2)": {
+            "path": "bash",
+            "args": ["-i", "-c", "source /opt/ros/humble/setup.bash && source ~/ros2_ws/install/setup.bash && bash"]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash (ROS2)"
+}
