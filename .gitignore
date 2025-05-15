@@ -4,4 +4,7 @@ log/
 *.pyc
 __pycache__/
 .pytest_cache/
-launch_all.sh
+
+# we don’t want these two in Git
+src/kaya_cube_detection/
+src/state_machine_ros2/
